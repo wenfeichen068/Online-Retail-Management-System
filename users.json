@@ -1,0 +1,18 @@
+{
+  "Admin123": {
+    "username": "Admin123",
+    "password_hash": "e86f78a8a3caf0b60d8e74e5942aa6d86dc150cd3c03338aef25b7d2d7e3acc7",
+    "role": "super",
+    "is_locked": false,
+    "lock_until": null,
+    "failed_attempts": 0
+  },
+  "User123": {
+    "username": "User123",
+    "password_hash": "3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72",
+    "role": "normal",
+    "is_locked": false,
+    "lock_until": null,
+    "failed_attempts": 0
+  }
+}

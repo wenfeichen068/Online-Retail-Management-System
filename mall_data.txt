@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "product_id": "P001",
+      "name": "iPhone 15 Pro",
+      "category": "电子产品",
+      "price": 7999.0,
+      "stock": 50
+    },
+    {
+      "product_id": "P002",
+      "name": "华为 Mate 60",
+      "category": "电子产品",
+      "price": 6999.0,
+      "stock": 80
+    },
+    {
+      "product_id": "P003",
+      "name": "小米电视 75寸",
+      "category": "家电",
+      "price": 4999.0,
+      "stock": 30
+    },
+    {
+      "product_id": "P004",
+      "name": "戴森吸尘器",
+      "category": "家电",
+      "price": 3299.0,
+      "stock": 45
+    },
+    {
+      "product_id": "P005",
+      "name": "耐克运动鞋",
+      "category": "服装鞋帽",
+      "price": 599.0,
+      "stock": 120
+    },
+    {
+      "product_id": "P006",
+      "name": "阿迪达斯T恤",
+      "category": "服装鞋帽",
+      "price": 299.0,
+      "stock": 200
+    },
+    {
+      "product_id": "P007",
+      "name": "MacBook Pro 14",
+      "category": "电子产品",
+      "price": 14999.0,
+      "stock": 25
+    },
+    {
+      "product_id": "P008",
+      "name": "海尔冰箱",
+      "category": "家电",
+      "price": 2999.0,
+      "stock": 35
+    },
+    {
+      "product_id": "P009",
+      "name": "美的空调",
+      "category": "家电",
+      "price": 3599.0,
+      "stock": 40
+    },
+    {
+      "product_id": "P010",
+      "name": "索尼耳机",
+      "category": "电子产品",
+      "price": 1299.0,
+      "stock": 60
+    },
+    {
+      "product_id": "P011",
+      "name": "优衣库羽绒服",
+      "category": "服装鞋帽",
+      "price": 799.0,
+      "stock": 150
+    },
+    {
+      "product_id": "P012",
+      "name": "九阳豆浆机",
+      "category": "家电",
+      "price": 399.0,
+      "stock": 100
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "O001",
+      "phone": "13800138001",
+      "product_id": "P001",
+      "product_name": "iPhone 15 Pro",
+      "price": 7999.0,
+      "quantity": 2,
+      "total_amount": 15998.0,
+      "create_time": "2024-01-15T10:30:25",
+      "status": "active"
+    },
+    {
+      "order_id": "O002",
+      "phone": "13900139002",
+      "product_id": "P005",
+      "product_name": "耐克运动鞋",
+      "price": 599.0,
+      "quantity": 3,
+      "total_amount": 1797.0,
+      "create_time": "2024-01-16T14:20:10",
+      "status": "active"
+    },
+    {
+      "order_id": "O003",
+      "phone": "13700137003",
+      "product_id": "P007",
+      "product_name": "MacBook Pro 14",
+      "price": 14999.0,
+      "quantity": 1,
+      "total_amount": 14999.0,
+      "create_time": "2024-01-17T09:15:30",
+      "status": "active"
+    },
+    {
+      "order_id": "O004",
+      "phone": "13600136004",
+      "product_id": "P003",
+      "product_name": "小米电视 75寸",
+      "price": 4999.0,
+      "quantity": 2,
+      "total_amount": 9998.0,
+      "create_time": "2024-01-18T16:45:22",
+      "status": "active"
+    },
+    {
+      "order_id": "O005",
+      "phone": "13500135005",
+      "product_id": "P010",
+      "product_name": "索尼耳机",
+      "price": 1299.0,
+      "quantity": 5,
+      "total_amount": 6495.0,
+      "create_time": "2024-01-19T11:30:15",
+      "status": "active"
+    },
+    {
+      "order_id": "O006",
+      "phone": "13400134006",
+      "product_id": "P006",
+      "product_name": "阿迪达斯T恤",
+      "price": 299.0,
+      "quantity": 10,
+      "total_amount": 2990.0,
+      "create_time": "2024-01-20T13:25:40",
+      "status": "cancelled"
+    },
+    {
+      "order_id": "O007",
+      "phone": "13300133007",
+      "product_id": "P008",
+      "product_name": "海尔冰箱",
+      "price": 2999.0,
+      "quantity": 3,
+      "total_amount": 8997.0,
+      "create_time": "2024-01-21T15:10:05",
+      "status": "active"
+    },
+    {
+      "order_id": "O008",
+      "phone": "13200132008",
+      "product_id": "P011",
+      "product_name": "优衣库羽绒服",
+      "price": 799.0,
+      "quantity": 4,
+      "total_amount": 3196.0,
+      "create_time": "2024-01-22T10:05:50",
+      "status": "active"
+    },
+    {
+      "order_id": "O009",
+      "phone": "13100131009",
+      "product_id": "P002",
+      "product_name": "华为 Mate 60",
+      "price": 6999.0,
+      "quantity": 2,
+      "total_amount": 13998.0,
+      "create_time": "2024-01-23T14:55:33",
+      "status": "active"
+    },
+    {
+      "order_id": "O010",
+      "phone": "13000130010",
+      "product_id": "P009",
+      "product_name": "美的空调",
+      "price": 3599.0,
+      "quantity": 1,
+      "total_amount": 3599.0,
+      "create_time": "2024-01-24T09:40:18",
+      "status": "active"
+    },
+    {
+      "order_id": "O011",
+      "phone": "13800138011",
+      "product_id": "P004",
+      "product_name": "戴森吸尘器",
+      "price": 3299.0,
+      "quantity": 2,
+      "total_amount": 6598.0,
+      "create_time": "2024-01-25T12:20:45",
+      "status": "active"
+    },
+    {
+      "order_id": "O012",
+      "phone": "13900139012",
+      "product_id": "P012",
+      "product_name": "九阳豆浆机",
+      "price": 399.0,
+      "quantity": 8,
+      "total_amount": 3192.0,
+      "create_time": "2024-01-26T17:35:28",
+      "status": "active"
+    },
+    {
+      "order_id": "0001",
+      "phone": "15052273108",
+      "product_id": "P001",
+      "product_name": "iPhone 15 Pro",
+      "price": 7999.0,
+      "quantity": 1,
+      "total_amount": 7999.0,
+      "create_time": "2025-11-12T10:48:00.009063",
+      "status": "cancelled"
+    }
+  ]
+}
