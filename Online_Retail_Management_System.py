@@ -158,6 +158,7 @@ class AuthManager:
 
         self.users[username] = User(username, password, role)
         self._save_users()
+        print("注册成功！")
         return True
 
     def login(self, username: str, password: str) -> bool:
@@ -795,7 +796,6 @@ class MallSystem:
                 username = input("用户名: ").strip()
                 password = input("密码: ").strip()
                 self.auth_manager.register(username,password)
-                print("注册成功！")
                 continue
             elif text == "y":
             # 登录验证
@@ -860,3 +860,4 @@ class MallSystem:
 if __name__ == '__main__':
     system = MallSystem()
     system.run()
+
